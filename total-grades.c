@@ -38,14 +38,13 @@ scanf("%f", &cq2);
 printf("quiz 3 = ");
 scanf("%f", &cq3);
 
-
-printf("mid (/25) = ");
+printf("mid (/30) = ");
 scanf("%f", &cmid);
 
 printf("final (/40) = ");
 scanf("%f", &cfinal);
 
-cscore = ((((ca1/10)+(ca2/10)+(ca3/10)+(ca4/10))/4)*10) + ((((cq1/20)+(cq2/20)+(cq3/20))/3)*20) + ((cmid/25)*30) + ((cfinal/40)*40);
+cscore = ((((ca1/10)+(ca2/10)+(ca3/10)+(ca4/10))/4)*10) + ((((cq1/20)+(cq2/20)+(cq3/20))/3)*20) + ((cmid/30)*30) + ((cfinal/40)*40);
 
 // letter grade
 
@@ -80,7 +79,7 @@ const float phours = 4;
 
 printf("\n--> PHYS\n");
 
-printf("assgn tot (/15) = ");
+printf("assgn tot (/5) = ");
 scanf("%f", &pa);
 
 printf("quiz 1 (/10) = ");
@@ -92,22 +91,22 @@ scanf("%f", &pq2);
 printf("quiz 3 = ");
 scanf("%f", &pq3);
 
-printf("midlab (/25) = ");
+printf("midlab (/10) = ");
 scanf("%f", &pmidl);
 
-printf("midt = ");
+printf("midt (/15) = ");
 scanf("%f", &pmidt);
 
 printf("labs (/10) = ");
 scanf("%f", &plab);
 
-printf("finallab (/40) = ");
+printf("finallab (/15) = ");
 scanf("%f", &pfinall);
 
-printf("finalt = ");
+printf("finalt (/35) = ");
 scanf("%f", &pfinalt);
 
-pscore = ((pa/15)*5) + ((((pq1/10)+(pq2/10)+(pq3/10))/3)*10) + ((pmidl/25)*10) + ((pmidt/25)*15) + ((plab/10)*10) + ((pfinall/40)*15) + ((pfinalt/40)*35);
+pscore = ((pa/5)*5) + ((((pq1/10)+(pq2/10)+(pq3/10))/3)*10) + ((pmidl/10)*10) + ((pmidt/15)*15) + ((plab/10)*10) + ((pfinall/15)*15) + ((pfinalt/35)*35);
 
 // letter grade
 
@@ -142,7 +141,7 @@ float const ehours = 3;
 
 printf("\n--> ENGLISH\n");
 
-printf("quiz 1 (/20) = ");
+printf("quiz 1 (/15) = ");
 scanf("%f", &eq1);
 
 printf("quiz 2 = ");
@@ -151,13 +150,13 @@ scanf("%f", &eq2);
 printf("quiz 3 = ");
 scanf("%f", &eq3);
 
-printf("mid (/25) = ");
+printf("mid (/20) = ");
 scanf("%f", &emid);
 
-printf("final (/40) = ");
+printf("final (/35) = ");
 scanf("%f", &efinal);
 
-escore = ((((eq1/20)+(eq2/20)+(eq3/20))/3)*45) + ((emid/25)*20) + ((efinal/40)*35);
+escore = ((((eq1/15)+(eq2/15)+(eq3/15))/3)*45) + ((emid/20)*20) + ((efinal/35)*35);
 
 // letter grade
 
@@ -204,19 +203,19 @@ scanf("%f", &csq2);
 printf("quiz 3 = ");
 scanf("%f", &csq3);
 
-printf("midlab (/25) = ");
+printf("midlab (/15) = ");
 scanf("%f", &csmidl);
 
-printf("midt = ");
+printf("midt (/20) = ");
 scanf("%f", &csmidt);
 
-printf("finallab (/40) = ");
+printf("finallab (/15) = ");
 scanf("%f", &csfinall);
 
-printf("finalt = ");
+printf("finalt (/35) = ");
 scanf("%f", &csfinalt);
 
-csscore = ((csa/15)*5) + ((((csq1/10)+(csq2/10)+(csq3/10))/3)*10) + ((csmidl/25)*15) + ((csmidt/25)*20) + ((csfinall/40)*15) + ((csfinalt/40)*35);
+csscore = ((csa/15)*5) + ((((csq1/10)+(csq2/10)+(csq3/10))/3)*10) + ((csmidl/15)*15) + ((csmidt/20)*20) + ((csfinall/15)*15) + ((csfinalt/35)*35);
 
 // letter grade
 
@@ -304,14 +303,14 @@ scanf("%f", &isa);
 printf("quiz (/20) = ");
 scanf("%f", &isq);
 
-printf("mid (/25) = ");
+printf("mid (/30) = ");
 scanf("%f", &ismid);
 
 printf("final (/40) = ");
 scanf("%f", &isfinal);
 
 
-isscore = ((isq/20)*20) + ((ismid/25)*30) + ((isa/10)*10) + ((isfinal/40)*40);
+isscore = ((isq/20)*20) + ((ismid/30)*30) + ((isa/10)*10) + ((isfinal/40)*40);
 
 // letter grade
 
